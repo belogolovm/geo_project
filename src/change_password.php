@@ -3,7 +3,7 @@
 <?php
 // Страница регистрации нового пользователя
 $ip =$_SERVER['REMOTE_ADDR'];
-$dbconn= pg_connect("host=127.0.0.1 dbname=geobd user=geobd1 password=geobd1");
+$dbconn= pg_connect("host=127.0.0.1 dbname=pgpool user=geobd1 password=geobd1");
 
 echo '<a style="color:#0000FF;" href="index.php" style="float:left;">Вернуться на главную</a><br>';
 
